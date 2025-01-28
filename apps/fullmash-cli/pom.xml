@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-compiler-plugin-version>3.13.0</maven-compiler-plugin-version>
         <picocli-version>4.7.6</picocli-version>
-        <pitest-version>1.16.1</pitest-version>
+        <pitest-version>1.17.4</pitest-version>
     </properties>
 
     <dependencies>
