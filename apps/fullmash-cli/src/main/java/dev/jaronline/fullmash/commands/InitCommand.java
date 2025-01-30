@@ -83,6 +83,7 @@ public class InitCommand implements Callable<Integer> {
         if (defaultValue != null && !defaultValue.isEmpty()) {
             spec.commandLine().getOut().print("(" + defaultValue + ") ");
         }
+        spec.commandLine().getOut().flush();
 
         String input = scanner.nextLine();
         if (input.isEmpty()) {
