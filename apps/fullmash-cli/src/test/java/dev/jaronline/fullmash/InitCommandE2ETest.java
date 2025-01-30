@@ -23,7 +23,7 @@ public class InitCommandE2ETest extends PicoE2ETest {
         assertTrue(new File("./", configFile).exists());
         assertEquals("""
                 {
-                  "name": "FullMash-CLI",
+                  "name": "fullmash-cli",
                   "version": "1.0.0",
                   "author": "",
                   "modloaders": [],
