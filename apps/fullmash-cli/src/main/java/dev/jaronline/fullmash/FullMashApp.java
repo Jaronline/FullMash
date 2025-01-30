@@ -10,7 +10,7 @@ import picocli.CommandLine.Command;
 import java.util.concurrent.Callable;
 
 @Command(name = FullMashApp.NAME, aliases = {"fm"}, mixinStandardHelpOptions = true,
-        version = "fullmash-cli 0.1",
+        version = FullMashApp.NAME + "-cli 0.1",
         defaultValueProvider = PropertiesDefaultProvider.class,
         subcommands = {
                 HelpCommand.class,
