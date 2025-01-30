@@ -1,6 +1,5 @@
 package dev.jaronline.fullmash;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
@@ -32,15 +31,5 @@ public class InitCommandE2ETest extends PicoE2ETest {
                     "version": ""
                   }
                 }""", Files.readString(Paths.get(configFile)));
-    }
-
-    @AfterEach
-    void teardown() {
-        super.teardown();
-        try {
-            Files.deleteIfExists(Paths.get(configFile));
-        } catch (IOException e) {
-            fail(e);
-        }
     }
 }
