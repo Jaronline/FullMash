@@ -1,7 +1,7 @@
-package dev.jaronline.fullmash;
+package dev.jaronline.fullmash.cli;
 
-import dev.jaronline.fullmash.commands.AddCommand;
-import dev.jaronline.fullmash.commands.InitCommand;
+import dev.jaronline.fullmash.cli.commands.AddCommand;
+import dev.jaronline.fullmash.cli.commands.InitCommand;
 import picocli.CommandLine;
 import picocli.CommandLine.PropertiesDefaultProvider;
 import picocli.CommandLine.HelpCommand;

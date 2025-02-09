@@ -1,10 +1,10 @@
-package dev.jaronline.fullmash.commands;
+package dev.jaronline.fullmash.cli.commands;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import dev.jaronline.fullmash.candidates.ModSideCandidates;
+import dev.jaronline.fullmash.cli.candidates.ModSideCandidates;
 import dev.jaronline.fullmash.data.Mod;
-import dev.jaronline.fullmash.defaults.FMDefaultPropertiesProvider;
+import dev.jaronline.fullmash.cli.defaults.FMDefaultPropertiesProvider;
 import picocli.CommandLine.ArgGroup;
 import picocli.CommandLine.Parameters;
 import picocli.CommandLine.Option;

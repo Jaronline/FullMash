@@ -1,4 +1,4 @@
-package dev.jaronline.fullmash.candidates;
+package dev.jaronline.fullmash.cli.candidates;
 
 import dev.jaronline.fullmash.data.Mod;
 

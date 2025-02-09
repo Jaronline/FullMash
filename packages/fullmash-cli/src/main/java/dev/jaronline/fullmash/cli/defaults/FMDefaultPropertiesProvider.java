@@ -1,4 +1,4 @@
-package dev.jaronline.fullmash.defaults;
+package dev.jaronline.fullmash.cli.defaults;
 
 import picocli.CommandLine.Model.ArgSpec;
 import picocli.CommandLine.IDefaultValueProvider;

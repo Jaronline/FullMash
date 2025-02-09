@@ -1,5 +1,6 @@
 package dev.jaronline.fullmash;
 
+import dev.jaronline.fullmash.cli.FullMashApp;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import picocli.CommandLine;

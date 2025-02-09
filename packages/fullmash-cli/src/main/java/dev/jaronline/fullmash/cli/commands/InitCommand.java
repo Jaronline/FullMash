@@ -1,8 +1,8 @@
-package dev.jaronline.fullmash.commands;
+package dev.jaronline.fullmash.cli.commands;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import dev.jaronline.fullmash.FullMashApp;
+import dev.jaronline.fullmash.cli.FullMashApp;
 import dev.jaronline.fullmash.data.Game;
 import dev.jaronline.fullmash.data.Modloader;
 import dev.jaronline.fullmash.data.Modpack;
