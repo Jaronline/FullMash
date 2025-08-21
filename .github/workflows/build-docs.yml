@@ -53,7 +53,7 @@ jobs:
           echo "algolia_artifact=$ALGOLIA_ARTIFACT" >> $GITHUB_OUTPUT
 
       - name: Build docs using Writerside Docker builder
-        uses: JetBrains/writerside-github-action@b96c8e6011351f5637326ac4d7ff5a2661de368e # v4
+        uses: JetBrains/writerside-github-action@73f8f377e7c6a64cce73ca73fe07bbba9a34d556 # v4
         with:
           instance: ${{ env.INSTANCE }}
           docker-version: ${{ env.DOCKER_VERSION }}
